@@ -11,4 +11,4 @@ const showClock = () => {
     const msg = nowHour + ":" + nowMin + ":" + nowSec
     document.getElementById("RealtimeClockArea").innerHTML = msg
 }
-setInterval('showClock', 1000)
+setInterval(showClock, 1000)
